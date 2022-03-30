@@ -13,7 +13,7 @@ public class TestRegistrationForm {
     }
 
     @Test
-    void testRegistrationForm(){
+    void testRegistrationForm() {
         String firstName = "joka";
         String lastName = "boka";
         String email = "test@qa.qa";
