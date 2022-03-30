@@ -17,6 +17,7 @@ public class TestRegistrationForm {
         String firstName = "joka";
         String lastName = "boka";
         String email = "test@qa.qa";
+        String number = "7987645382";
 
         open("https://demoqa.com/automation-practice-form");
 
@@ -24,7 +25,7 @@ public class TestRegistrationForm {
         $("#lastName").setValue(lastName);
         $("#userEmail").setValue(email);
         $("[for=gender-radio-1]").click();
-
+        $("#userNumber").setValue(number);
 
     }
 }
